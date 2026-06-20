@@ -1,40 +1,132 @@
 {
   "hero": {
     "title": "Domina el Arte de Vender con Meta & Google Ads",
-    "subtitle": "Olvídate de bailes ridículos en TikTok. Aquí aprendes la estrategia real que tu negocio necesita.",
-    "cta": "Empezar Ahora"
+    "subtitle": "Olvídate de bailes ridículos en TikTok. Aquí aprendes la estrategia real que tu negocio necesita para escalar sus ventas con ganchos de venta efectivos e Instagram como motor principal.",
+    "cta": "Reservar mi Cupo"
   },
   "about": {
     "title": "¿Por qué nosotros?",
-    "description": "En nuestra escuela, nos enfocamos en resultados tangibles. Usamos Instagram como tu fuente principal de prospectos y ganchos de venta que convierten. No pierdas tiempo intentando ser viral sin una estrategia de ventas clara."
+    "description": "En nuestra escuela, nos enfocamos en resultados tangibles. Usamos Instagram como tu fuente principal de prospectos y ganchos de venta que convierten. No pierdas tiempo intentando ser viral sin una estrategia de ventas clara. Te enseñamos a pensar como un estratega, no como un creador de contenido de relleno."
+  },
+  "target": {
+    "title": "¿Para quién es esta Academia?",
+    "items": [
+      {
+        "title": "Dueños de Negocio",
+        "description": "Que quieren dejar de depender del 'boca a boca' y empezar a generar ventas predecibles."
+      },
+      {
+        "title": "Emprendedores Digitales",
+        "description": "Que buscan dominar las herramientas de pauta publicitaria para escalar sus infoproductos o servicios."
+      },
+      {
+        "title": "Agencias y Freelancers",
+        "description": "Que desean dar mejores resultados a sus clientes usando estrategias de respuesta directa."
+      }
+    ]
+  },
+  "method": {
+    "title": "Nuestra Metodología de 3 Pilares",
+    "steps": [
+      {
+        "title": "Atracción Irresistible",
+        "description": "Configuramos Meta Ads enfocados en Instagram para captar la atención de tu cliente ideal sin necesidad de tendencias pasajeras."
+      },
+      {
+        "title": "Ganchos de Venta Reales",
+        "description": "Diseñamos mensajes que atacan los puntos de dolor y deseos de tu audiencia, convirtiendo clics en clientes."
+      },
+      {
+        "title": "Escalamiento con Datos",
+        "description": "Usamos Google Ads para capturar la demanda existente y Meta Ads para crear nueva demanda, optimizando cada centavo de tu inversión."
+      }
+    ]
+  },
+  "curriculum": {
+    "title": "Plan de Estudios Intensivo",
+    "modules": [
+      {
+        "name": "Módulo 1: Fundamentos de Estrategia",
+        "topics": ["Psicología del consumidor", "Definición de Avatar de Cliente", "Estructura de Oferta Irresistible"]
+      },
+      {
+        "name": "Módulo 2: Meta Ads Pro",
+        "topics": ["Business Suite desde cero", "Segmentación por intereses y públicos similares", "Creativos que detienen el scroll"]
+      },
+      {
+        "name": "Módulo 3: Google Ads Search",
+        "topics": ["Keyword Research avanzado", "Redacción de anuncios de texto", "Optimización de landing pages"]
+      },
+      {
+        "name": "Módulo 4: Análisis y Escalamiento",
+        "topics": ["Lectura de métricas (ROAS, CPA, CTR)", "Retargeting efectivo", "Presupuestos de escalamiento vertical y horizontal"]
+      }
+    ]
+  },
+  "results": {
+    "title": "Lo que lograrás al finalizar",
+    "points": [
+      "Sistema de ventas automatizado funcionando 24/7.",
+      "Control total sobre tu presupuesto publicitario.",
+      "Capacidad de crear anuncios que venden sin hacer el ridículo.",
+      "Dominio técnico de las plataformas Meta y Google Ads."
+    ]
   },
   "services": [
     {
       "id": 1,
-      "title": "Meta Ads (Instagram & Facebook)",
-      "description": "Configuración experta de campañas enfocadas en retorno de inversión. Ganchos de venta directos al grano.",
+      "title": "Meta Ads Avanzado",
+      "description": "Segmentación psicográfica y técnica. Creación de campañas de conversión, mensajes y generación de clientes potenciales.",
       "icon": "Instagram"
     },
     {
       "id": 2,
-      "title": "Google Ads",
-      "description": "Aparece cuando tus clientes te están buscando activamente. Estrategia de búsqueda y display.",
+      "title": "Google Ads Search",
+      "description": "Domina las palabras clave de intención de compra. Aparece justo cuando el cliente está listo para pagar.",
       "icon": "Search"
     },
     {
       "id": 3,
-      "title": "Estrategia de Ventas",
-      "description": "Creamos el embudo que tu negocio necesita, desde el primer contacto hasta el cierre.",
+      "title": "Embudos de Venta (Funnels)",
+      "description": "Estructuramos el camino que recorre tu cliente desde que te ve en un anuncio hasta que realiza el pago.",
       "icon": "TrendingUp"
+    },
+    {
+      "id": 4,
+      "title": "Copywriting para Anuncios",
+      "description": "Escribe textos que vendan. El poder de las palabras aplicado a tus creativos de Instagram.",
+      "icon": "FileText"
     }
   ],
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      {
+        "question": "¿Necesito experiencia previa en anuncios?",
+        "answer": "No. Te llevamos desde las bases hasta la implementación de estrategias avanzadas."
+      },
+      {
+        "question": "¿Tengo que bailar en videos?",
+        "answer": "Absolutamente NO. Nos enfocamos en marketing de respuesta directa, no en entretenimiento de relleno."
+      },
+      {
+        "question": "¿Cuánto presupuesto necesito para empezar?",
+        "answer": "Te enseñamos a validar tu oferta con presupuestos bajos antes de escalar con mayor inversión."
+      },
+      {
+        "question": "¿Las clases son grabadas o en vivo?",
+        "answer": "Combinamos teoría en video de alta calidad con sesiones de consultoría en vivo para revisar tus campañas."
+      }
+    ]
+  },
   "contact": {
-    "title": "Lleva tu negocio al siguiente nivel",
+    "title": "Inicia tu Transformación Hoy",
+    "subtitle": "No dejes tu crecimiento al azar. Agenda una consulta y descubre cómo escalar tus ventas con anuncios profesionales.",
     "phone": "Próximamente",
     "email": "contacto@tuacademia.com",
-    "address": "Disponible Online"
+    "address": "Disponible Online - Clases en Vivo"
   },
   "footer": {
-    "text": "© 2025 Academia de Ventas Pro. Sin bailes, solo ventas."
+    "text": "© 2025 Academia de Ventas Pro. Estrategias Reales para Negocios Reales."
   }
 }

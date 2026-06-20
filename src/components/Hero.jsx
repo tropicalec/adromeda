@@ -1,59 +1,68 @@
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import heroImg from '../assets/hero.png';
 
-const Hero = ({ data }) => {
+const Hero = ({ content }) => {
+  const { scrollY } = useScroll();
+  const y1 = useTransform(scrollY, [0, 500], [0, 200]);
+
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-900 via-purple-900 to-black text-white">
-      <div className="absolute inset-0 z-0">
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            rotate: [0, 10, 0],
-            opacity: [0.3, 0.5, 0.3]
-          }}
-          transition={{ duration: 10, repeat: Infinity }}
-          className="absolute -top-20 -left-20 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30"
+    <div className="relative h-screen flex items-center justify-center overflow-hidden bg-gray-900">
+      {/* Background with parallax effect */}
+      <motion.div
+        style={{ y: y1 }}
+        className="absolute inset-0 z-0 opacity-40"
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-purple-900/20 to-gray-900"></div>
+        <img
+          src={heroImg}
+          alt="Marketing background"
+          className="w-full h-full object-cover"
         />
-        <motion.div
-          animate={{
-            scale: [1, 1.3, 1],
-            rotate: [0, -10, 0],
-            opacity: [0.3, 0.4, 0.3]
-          }}
-          transition={{ duration: 12, repeat: Infinity }}
-          className="absolute -bottom-20 -right-20 w-96 h-96 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30"
-        />
-      </div>
+      </motion.div>
 
-      <div className="container mx-auto px-6 z-10 text-center">
-        <motion.h1
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
+      <div className="container mx-auto px-6 relative z-10 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-300"
         >
-          {data.title}
-        </motion.h1>
-
-        <motion.p
-          initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xl md:text-2xl mb-10 text-gray-300 max-w-3xl mx-auto"
-        >
-          {data.subtitle}
-        </motion.p>
-
-        <motion.div
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-        >
-          <button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg transform transition hover:scale-105">
-            {data.cta}
-          </button>
+          <span className="inline-block py-1 px-3 rounded-full bg-purple-600 text-white text-xs font-bold tracking-widest uppercase mb-4">
+            Escuela de Estrategia Digital
+          </span>
+          <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-8 leading-tight">
+            {content.title.split('Meta & Google Ads')[0]}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
+              Meta & Google Ads
+            </span>
+          </h1>
+          <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+            {content.subtitle}
+          </p>
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg shadow-purple-500/30 transition-all"
+          >
+            {content.cta}
+          </motion.button>
         </motion.div>
       </div>
-    </section>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 1 }}
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+      >
+        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center p-1">
+          <motion.div
+            animate={{ y: [0, 12, 0] }}
+            transition={{ repeat: Infinity, duration: 1.5 }}
+            className="w-1 h-2 bg-white rounded-full"
+          />
+        </div>
+      </motion.div>
+    </div>
   );
 };
 
