@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Domina el Arte de Vender con Meta & Google Ads",
+    "subtitle": "Olvídate de bailes ridículos en TikTok. Aquí aprendes la estrategia real que tu negocio necesita.",
+    "cta": "Empezar Ahora"
+  },
+  "about": {
+    "title": "¿Por qué nosotros?",
+    "description": "En nuestra escuela, nos enfocamos en resultados tangibles. Usamos Instagram como tu fuente principal de prospectos y ganchos de venta que convierten. No pierdas tiempo intentando ser viral sin una estrategia de ventas clara."
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Meta Ads (Instagram & Facebook)",
+      "description": "Configuración experta de campañas enfocadas en retorno de inversión. Ganchos de venta directos al grano.",
+      "icon": "Instagram"
+    },
+    {
+      "id": 2,
+      "title": "Google Ads",
+      "description": "Aparece cuando tus clientes te están buscando activamente. Estrategia de búsqueda y display.",
+      "icon": "Search"
+    },
+    {
+      "id": 3,
+      "title": "Estrategia de Ventas",
+      "description": "Creamos el embudo que tu negocio necesita, desde el primer contacto hasta el cierre.",
+      "icon": "TrendingUp"
+    }
+  ],
+  "contact": {
+    "title": "Lleva tu negocio al siguiente nivel",
+    "phone": "Próximamente",
+    "email": "contacto@tuacademia.com",
+    "address": "Disponible Online"
+  },
+  "footer": {
+    "text": "© 2025 Academia de Ventas Pro. Sin bailes, solo ventas."
+  }
+}
